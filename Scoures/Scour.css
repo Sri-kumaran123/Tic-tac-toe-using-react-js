@@ -1,0 +1,56 @@
+.S_board{
+    position: absolute;
+    left: -0;
+    display: flex;
+    flex-direction: column;
+    
+    min-height: 40vh;
+    width: 30%;
+   
+    left:2rem;
+    justify-content: space-around;
+    color: white;
+    
+    
+
+}
+.score{
+    margin: 20px;
+    height: 38%;
+    width: 90%;
+    
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 12px black;
+    border-radius: 30px;
+    
+}
+h2{
+    padding-left: 20px;
+ 
+}
+span{
+    font-family: sans-serif;
+    padding: 10px 30px;
+}
+
+.player{
+    font-size: 40px;
+    font-weight: 700;
+}
+.inactive{
+    opacity: .4;
+    box-shadow: 0 0 0 #fff;
+    
+}
+.x-score{
+    background-color: blue;
+}
+.o-score{
+    background-color: red;
+}
+.sc{
+    align-self: flex-end;
+    font-size: 20px ;
+
+}
